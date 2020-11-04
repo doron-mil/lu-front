@@ -1,0 +1,25 @@
+.main-chat-display {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 0px 10px;
+
+  .chat-entry {
+    display: flex;
+    padding-bottom: 3px;
+
+    .entry-user {
+      min-width: 60px;
+      height: 30px;
+      padding: 0px 8px;
+      display: flex;
+      justify-content: center;
+      border-radius: 5px;
+    }
+
+    .entry-content {
+      line-break: anywhere;
+    }
+  }
+}

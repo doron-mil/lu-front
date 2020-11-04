@@ -1,0 +1,13 @@
+.main-users-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .user-item {
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+}
